@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function AttendPage() {
   return (
     <>
-      <LoginRedirector />
+      {/* <LoginRedirector /> */}
       <div className="relative">
         <ShareButton />
         <div>

@@ -1,4 +1,3 @@
-import Button from "@/components/atom/Button";
 import LoginRedirector from "@/components/atom/LoginRedirector";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,7 +5,7 @@ import Link from "next/link";
 export default function BenefitMyLuckPage() {
   return (
     <>
-      <LoginRedirector />
+      {/* <LoginRedirector /> */}
       <div className="mt-[36px]">
         <div className="px-5 pt-10 pb-14 text-center">
           <div className="relative w-full min-h-[85vw]">
