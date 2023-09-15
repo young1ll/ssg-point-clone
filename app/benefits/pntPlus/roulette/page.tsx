@@ -1,4 +1,4 @@
-import LoginRedirector from "@/components/atom/LoginRedirector";
+// import LoginRedirector from "@/components/atom/LoginRedirector";
 import ShareButton from "@/components/atom/ShareButton";
 import RouletteStart from "@/components/organisam/RouletteStart";
 import Image from "next/image";

@@ -1,4 +1,4 @@
-import LoginRedirector from "@/components/atom/LoginRedirector";
+// import LoginRedirector from "@/components/atom/LoginRedirector";
 import Image from "next/image";
 import Link from "next/link";
 
