@@ -6,10 +6,8 @@ import ListBody from "@/components/atom/ListBody";
 import Subtitle from "@/components/atom/Subtitle";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 export default function ConvertPntList() {
-  const router = useRouter();
 
   const beforeArrow =
     "before:absolute before:block before:w-[15px] before:h-2 before:top-8 before:left-1/3 before:ml-[-4%] before:bg-[url('/images/mypoint_arrow.png')] before:bg-[100%_auto]";
@@ -19,9 +17,6 @@ export default function ConvertPntList() {
   const linkRightArrow =
     "after:absolute after:right-0 after:top-1/2 after:w-[6px] after:h-[10px] after:mt-[-4.5px] after:bg-[url('/images/arrow_left.png')] after:bg-[100%_auto] after:rotate-180 after:opacity-40";
 
-  const handleClick = () => {
-    router.push("/myPoint/convertIndAgree");
-  };
 
   return (
     <>
@@ -82,13 +77,12 @@ export default function ConvertPntList() {
           <div className="w-4/6 font-medium">삼성카드 포인트</div>
           <div className="relative w-2/6">
             <span className="absolute right-[30px] top-1/2 mt-[-7px] z-[2]">
-              <Button
-                type="simple"
+              <Link
                 className={`relative text-xs leading-[18px] text-[#767676] pr-[10px] !bg-transparent ${linkRightArrow}`}
-                onClick={handleClick}
+                href={"/myPoint/convertIndAgree"}
               >
                 조회하기
-              </Button>
+              </Link>
             </span>
           </div>
         </li>
@@ -105,13 +99,12 @@ export default function ConvertPntList() {
           <div className="w-4/6 font-medium">OK캐쉬백 포인트</div>
           <div className="relative w-2/6">
             <span className="absolute right-[30px] top-1/2 mt-[-7px] z-[2]">
-              <Button
-                type="simple"
+              <Link
                 className={`relative text-xs leading-[18px] text-[#767676] pr-[10px] !bg-transparent ${linkRightArrow}`}
-                onClick={handleClick}
+                href={"/myPoint/convertIndAgree"}
               >
                 조회하기
-              </Button>
+              </Link>
             </span>
           </div>
         </li>

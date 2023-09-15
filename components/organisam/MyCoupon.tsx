@@ -1,5 +1,5 @@
 "use client";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ListHeader from "../atom/ListHeader";
 import Dropdown from "../atom/Dropdown";
@@ -32,7 +32,6 @@ type CouponType = {
 
 export default function MyCoupon() {
   const currPathname = usePathname();
-  const router = useRouter();
   const { appValueList } = useAppContext();
   const [couponList, setEventList] = useState([]);
 

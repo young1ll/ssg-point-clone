@@ -28,13 +28,10 @@ export default function Tab({
 }) {
   const { appValueList, handleAppRecord } = useAppContext();
   const pathname = usePathname();
-  const router = useRouter();
 
   const handleTab = () => {
     handleAppRecord(id, label);
-    if (urlBased) {
-      router.push(urlBased);
-    }
+    
   };
 
   useEffect(() => {
