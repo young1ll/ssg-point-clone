@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "1만원 이상 구매 시 1천원 할인",
+    "thumb": "/coupon/discount_1000.png",
+    "coupon_icon": "/coupon/logo_emart24.png",
+    "coupon_desc": "이마트24",
+    "fc_icon": "/coupon/icon_emart24.png",
+    "fc_desc": "이마트24(일부 매장 제외)",
+    "barcode": "92025223080250097385",
+    "start_date": "2023/09/01",
+    "end_date": "2023/09/30"
+  },
+  {
+    "id": 2,
+    "name": "3만원 이상 구매 시 2천원 할인",
+    "thumb": "/coupon/discount_2000.png",
+    "coupon_icon": "/coupon/logo_emart24everyday.png",
+    "coupon_desc": "에브리데이",
+    "fc_icon": "/coupon/icon_emart24everyday.png",
+    "fc_desc": "이마트 에브리데이",
+    "barcode": "2022328123354122460",
+    "start_date": "2023/09/01",
+    "end_date": "2023/09/30"
+  },
+  {
+    "id": 3,
+    "name": "(수입차) 엔진오일 교환 20% 할인",
+    "thumb": "/coupon/discount_20per.png",
+    "coupon_icon": "/coupon/logo_speedMate.png",
+    "coupon_desc": "스피드메이트",
+    "fc_icon": "/coupon/icon_speedMate.png",
+    "fc_desc": "스피드메이트 전국 지점",
+    "barcode": "2022328123354122460",
+    "start_date": "2023/01/02",
+    "end_date": "2023/12/31"
+  },
+  {
+    "id": 4,
+    "name": "착한정식 10% 할인",
+    "thumb": "/coupon/discount_10per.png",
+    "coupon_icon": "/coupon/logo_spharos.png",
+    "coupon_desc": "스파로스아카데미",
+    "fc_icon": "/coupon/icon_emart24.png",
+    "fc_desc": "스파로스아카데미 부산센터",
+    "barcode": "2022328123354122460",
+    "start_date": "2023/07/03",
+    "end_date": "2023/09/01"
+  },
+  {
+    "id": 5,
+    "name": "착한제육 10% 할인",
+    "thumb": "/coupon/discount_10per.png",
+    "coupon_icon": "/coupon/logo_spharos.png",
+    "coupon_desc": "스파로스아카데미",
+    "fc_icon": "/coupon/icon_emart24.png",
+    "fc_desc": "스파로스아카데미 부산센터",
+    "barcode": "2022328123354122460",
+    "start_date": "2023/07/03",
+    "end_date": "2023/09/20"
+  }
+]

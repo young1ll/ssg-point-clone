@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "신세계포인트",
+    "subtitle": "<em class='tip'>내 쇼핑 정보가 한눈에!<br>나만의 라이프 스타일에 맞는<br>다양한 신세계포인트 혜택을 누리세요.</em>",
+    "href": "https://m.shinsegaepoint.com/",
+    "src": "/images/resources/sPoint/card_shinsegaepoint.png",
+    "join": "true"
+  },
+  {
+    "id": 2,
+    "name": "이마트",
+    "subtitle": "<em class='tip'>이마트가 드리는 즐거운 혜택!<br>이마트가 새롭게 선보이는 e 머니를 만나보세요.</em>",
+    "href": "https://emartapp.emart.com/main/main.do?trcknCode=etc_QRscan",
+    "src": "/images/resources/sPoint/card_emart.png",
+    "join": "true"
+  },
+  {
+    "id": 3,
+    "name": "신세계백화점",
+    "subtitle": "<em class='tip'>쇼핑에 편리한 서비스를 한 곳에!<br>백화점의 새로운 멤버십, 신백멤버스에<br>가입하시고 스마트한 신백생활을 즐겨보세요</em>",
+    "href": "https://www.shinsegae.com/",
+    "src": "/images/resources/sPoint/card_shinsegae.png",
+    "join": "false"
+  },
+  {
+    "id": 4,
+    "name": "SSG.COM",
+    "subtitle": "<em class='tip'>신세계적 쇼핑포털 SSG.COM<br>압도적 쓱케일로  쓱세권 회원이라면 내가 정한 시간에 쓱-배송 받으세요.</em>",
+    "href": "https://m.ssg.com/",
+    "src": "/images/resources/sPoint/card_ssg.png",
+    "join": "false"
+  },
+  {
+    "id": 5,
+    "name": "신세계아울렛",
+    "subtitle": "<em class='tip'>가입 시 온·오프라인 통합 웰컴 쿠폰팩 지급!<br>신세계사이먼 멤버십 가입하고 아울렛 쇼핑의 모든 혜택을 한번에 받아보세요.</em>",
+    "href": "https://app.premiumoutlets.co.kr/page/app/online",
+    "src": "/images/resources/sPoint/card_outlets.png",
+    "join": "false"
+  },
+  {
+    "id": 6,
+    "name": "시코르",
+    "subtitle": "<em class='tip'>PLAY CHICOR!<br>신세계 백화점이 만든 <br>뷰티 스페셜티 스토어</em>",
+    "href": "https://m.chicor.com/main",
+    "src": "/images/resources/sPoint/card_chicor.png",
+    "join": "false"
+  },
+  {
+    "id": 7,
+    "name": "이마트에브리데이",
+    "subtitle": "<em class='tip'>이마트 에브리데이 앱이 새로워졌어요!<br>새단장한 앱으로 더욱더 다양해진 장보기 혜택을 확인하세요.</em>",
+    "href": "http://m.emarteveryday.co.kr/index.jsp",
+    "src": "/images/resources/sPoint/card_emarteveryday.png",
+    "join": "false"
+  },
+  {
+    "id": 8,
+    "name": "쓱고우",
+    "subtitle": "<em class='tip'>이마트가 만든 퀵커머스!<br>신세계를 한방에 쓱-고우!<br>배달부터 픽업까지 다양하게 경험하세요.</em>",
+    "href": "https://ondemandweb.ondemand.mycloudmembership.com/",
+    "src": "/images/resources/sPoint/card_ssggo.png",
+    "join": "false"
+  },
+  {
+    "id": 9,
+    "name": "신세계면세점",
+    "subtitle": "<em class='tip'>여행의 설렘과 쇼핑의 즐거움<br>신세계면세점과 함께하세요!</em>",
+    "href": "https://www.ssgdfs.com/kr/common/downloadDFAppLink",
+    "src": "/images/resources/sPoint/card_ssgdf.png",
+    "join": "false"
+  },
+  {
+    "id": 10,
+    "name": "신세계까사",
+    "subtitle": "<em class='tip'>모든 이의 집을 생각하는 신세계의 리빙&amp;라이프스타일 기업<br> 신세계까사만의 특별한 혜택을 만나보세요.</em>",
+    "href": "https://www.guud.com/index",
+    "src": "/images/resources/sPoint/card_chicor.png",
+    "join": "false"
+  },
+  {
+    "id": 11,
+    "name": "스타필드",
+    "subtitle": "<em class='tip'>쇼핑, 레저, 힐링을 모두 누리는 <br>우리 가족 쇼핑 테마파크</em>",
+    "href": "https://m.starfield.co.kr/",
+    "src": "/images/resources/sPoint/card_starfield.png",
+    "join": "false"
+  }
+]

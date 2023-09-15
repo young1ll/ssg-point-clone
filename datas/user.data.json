@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "uuid": "fb15d166-37f3-11ee-be56-0242ac120002",
+    "user_id": "administrator",
+    "passwoard": "1234",
+    "username": "관리자",
+    "email": "googlecho01@gmail.com",
+    "phone": "+82 10 4916 8999",
+    "address_home": "",
+    "address_comp": "",
+    "role": "admin",
+    "state": "1",
+    "barcode": "",
+    "point_password": "1234",
+    "reg_date": "",
+    "mod_date": ""
+  },
+  {
+    "id": 2,
+    "uuid": "fb15d3dc-37f3-11ee-be56-0242ac120002",
+    "user_id": "tester",
+    "passwoard": "1234",
+    "username": "아몰랑",
+    "email": "creativehorn@naver.com",
+    "phone": "+82 10 4916 8999",
+    "address_home": "",
+    "address_comp": "",
+    "role": "normal",
+    "state": "1",
+    "barcode": "",
+    "point_password": "1234",
+    "reg_date": "",
+    "mod_date": ""
+  },
+  {
+    "id": 3,
+    "uuid": "fb15d6dd-37f3-11ee-be56-0242ac120002",
+    "user_id": "rrrightleft",
+    "passwoard": "1234",
+    "username": "테스터",
+    "email": "creativehorn@naver.com",
+    "phone": "+82 10 4916 8999",
+    "address_home": "",
+    "address_comp": "",
+    "role": "normal",
+    "state": "1",
+    "barcode": "",
+    "point_password": "1234",
+    "reg_date": "",
+    "mod_date": ""
+  }
+]

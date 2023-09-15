@@ -1,0 +1,15 @@
+.barcode {
+  color: #000;
+  width: calc(100% + 18px) !important;
+  height: auto !important;
+  position: relative;
+  left: -10px;
+}
+
+.barcode_swipe {
+  color: #000;
+  width: 100% !important;
+  height: auto !important;
+  max-height: 96px;
+  position: relative;
+}

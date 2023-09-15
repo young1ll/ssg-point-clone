@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "number": 1,
+    "title": "(수입차) 엔진오일 교환 20% 할인",
+    "start_date": "2023/01/02",
+    "end_date": "2023/12/31",
+    "store": "스피드메이트 전국 지점",
+    "barcode": "",
+    "src": "required"
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "title": "3만원 이상 구매 시 2천원 할인",
+    "start_date": "2023/08/01",
+    "end_date": "2023/08/31",
+    "store": "이마트 에브리데이(궁내점 제외)",
+    "barcode": "",
+    "src": "required"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "title": "(국산차) 배터리 교환 10% 할인",
+    "start_date": "2023/01/02",
+    "end_date": "2023/12/31",
+    "store": "스피드메이트 전국 지점",
+    "barcode": "",
+    "src": "required"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "title": "(국산차) 에어컨/히터 필터 교환 20% 할인",
+    "start_date": "2023/01/02",
+    "end_date": "2023/12/31",
+    "store": "emart everyday",
+    "barcode": "",
+    "src": "required"
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "title": "(국산차) 엔진오일 교환 2만원 할인",
+    "start_date": "2023/01/02",
+    "end_date": "2023/12/31",
+    "store": "스피드메이트 전국 지점",
+    "barcode": "",
+    "src": "required"
+  }
+]

@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 5, 5, 5;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  min-height: 100vh;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+/* body::-webkit-scrollbar {
+  width: 8px; /* 스크롤바의 너비 */
+
+em {
+  font-style: normal;
+}
+
+section {
+  min-height: calc(100vh - 500px);
+}
+
+.mainBannerSwiper .swiper-scrollbar {
+  position: absolute !important;
+  left: 30px !important;
+  bottom: 46px !important;
+  width: 73% !important;
+  height: 2px !important;
+  z-index: 1 !important;
+}
+.mainBannerSwiper .swiper-pagination {
+  position: absolute !important;
+  right: 30px !important;
+  bottom: 38px !important;
+  z-index: 2 !important;
+  height: 18px !important;
+  font-size: 12px !important;
+  letter-spacing: -1.5px !important;
+  font-family: "Noto Sans KR", "sans-serif" !important;
+}
+.mainBannerSwiper .swiper-pagination .swiper-pagination-current {
+  font-weight: 700 !important;
+}
+
+.basic_table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.basic_table td {
+  border-bottom: 1px solid #e8e8e8;
+  font-weight: 400;
+  word-break: break-all;
+
+  padding: 15px 8px;
+  font-size: 12px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+.basic_table .bold {
+  width: 24%;
+  border-left: 1px solid #e8e8e8;
+  min-width: 70px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 500;
+  vertical-align: middle;
+  word-break: break-all;
+}
+.basic_table .center td,
+.basic_table .center th {
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.react-datepicker,
+.react-datepicker__month-container {
+  width: 100%;
+}
+
+.react-datepicker__day-names,
+.react-datepicker__week {
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-datepicker__day {
+  border-radius: 100%;
+}
+
+.react-datepicker__day:hover {
+  background-color: #e8e8e8;
+}
+
+.map_marker {
+  display: block;
+  width: 50px;
+  height: 65px;
+  background-size: 50px 65px;
+  background-image: url("/images/marker_bg.png");
+  background-position: 50% 50%;
+}
+
+.map_marker > img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 4px;
+  width: 40px;
+  height: 44px;
+}

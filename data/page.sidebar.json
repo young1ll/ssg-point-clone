@@ -1,0 +1,545 @@
+[
+  {
+    "id": 1,
+    "parent_id": "",
+    "name": "홈",
+    "pathname": "/",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": "/images/tabIcon/tab_home.png"
+  },
+  {
+    "id": 2,
+    "parent_id": 1,
+    "name": "마이 포인트",
+    "pathname": "/myPoint/pntHistory",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": "/images/tabIcon/tab_point.png"
+  },
+  {
+    "id": 3,
+    "parent_id": 1,
+    "name": "마이 라운지",
+    "pathname": "/myLounge",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 4,
+    "parent_id": 1,
+    "name": "마이 혜택",
+    "pathname": "/benefits",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 5,
+    "parent_id": 1,
+    "name": "마이 회원정보",
+    "pathname": "/myInfo/infoRcvAgree",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": "/images/tabIcon/tab_mypage.png"
+  },
+  {
+    "id": 6,
+    "parent_id": 1,
+    "name": "신세계포인트",
+    "pathname": "/sPoint",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 7,
+    "parent_id": 1,
+    "name": "멤버십 서비스",
+    "pathname": "/membership",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 8,
+    "parent_id": 1,
+    "name": "고객센터",
+    "pathname": "/cscenter",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 9,
+    "parent_id": 1,
+    "name": "서비스 이용약관",
+    "pathname": "/stplat",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+
+  {
+    "id": 10,
+    "parent_id": 2,
+    "name": "포인트 내역",
+    "pathname": "/myPoint/pntHistory",
+    "simple_icon": "/images/pagecon/pagecon_pntHistory.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 11,
+    "parent_id": 2,
+    "name": "포인트 카드 관리",
+    "pathname": "/myPoint/cardManage",
+    "simple_icon": "/images/pagecon/pagecon_cardManage.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 12,
+    "parent_id": 2,
+    "name": "포인트 선물",
+    "pathname": "/myPoint/pntGiftMain",
+    "simple_icon": "/images/pagecon/pagecon_pntGiftMain.png",
+    "primary_icon": "/images/pagecon/pagecon_pntGiftMain_primary2.png",
+    "tab_icon": ""
+  },
+  {
+    "id": 13,
+    "parent_id": 2,
+    "name": "제휴포인트 카드 관리",
+    "pathname": "/myPoint/regAffiliatePntCard",
+    "simple_icon": "/images/pagecon/pagecon_regAffiliatePntCard.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 14,
+    "parent_id": 2,
+    "name": "포인트 전환",
+    "pathname": "/myPoint/convertPntList",
+    "simple_icon": "/images/pagecon/pagecon_convertPntList.png",
+    "primary_icon": "/images/pagecon/pagecon_convertPntList_primary2.png",
+    "tab_icon": ""
+  },
+  {
+    "id": 15,
+    "parent_id": 2,
+    "name": "영수증으로 적립",
+    "pathname": "/myPoint/savePoint",
+    "simple_icon": "/images/pagecon/pagecon_savePoint.png",
+    "primary_icon": "/images/pagecon/pagecon_savePoint_primary.png",
+    "tab_icon": ""
+  },
+  {
+    "id": 16,
+    "parent_id": 2,
+    "name": "포인트 비밀번호 변경",
+    "pathname": "/myPoint/chgPntPwdCert",
+    "simple_icon": "/images/pagecon/pagecon_chgPntPwdCert.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+
+  {
+    "id": 17,
+    "parent_id": 4,
+    "name": "포인트 플러스",
+    "pathname": "/benefits/pntPlus/attend",
+    "simple_icon": "/images/pagecon/pagecon_pntPlus.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 18,
+    "parent_id": 4,
+    "name": "나의 운세보기",
+    "pathname": "/benefits/benefitMyLuck",
+    "simple_icon": "/images/pagecon/pagecon_benefitMyLuck.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 19,
+    "parent_id": 4,
+    "name": "마이 쿠폰함",
+    "pathname": "/benefits/myCoupon",
+    "simple_icon": "/images/pagecon/pagecon_myCoupon.png",
+    "primary_icon": "/images/primary/myCoupon.png",
+    "tab_icon": ""
+  },
+  {
+    "id": 20,
+    "parent_id": 4,
+    "name": "마이 이벤트",
+    "pathname": "/benefits/myEvent",
+    "simple_icon": "/images/pagecon/pagecon_myEvent.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 21,
+    "parent_id": 4,
+    "name": "포인트 꿀팁",
+    "pathname": "/benefits/pntTip",
+    "simple_icon": "/images/pagecon/pagecon_pntTip.png",
+    "primary_icon": "",
+    "tab_icon": "/images/tabIcon/tab_tip.png"
+  },
+
+  {
+    "id": 22,
+    "parent_id": 3,
+    "name": "쇼핑 히스토리",
+    "pathname": "/myLounge/history",
+    "simple_icon": "/images/pagecon/pagecon_history.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 23,
+    "parent_id": 3,
+    "name": "추천 서비스",
+    "pathname": "/myLounge/recommend",
+    "simple_icon": "/images/pagecon/pagecon_recommend.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 24,
+    "parent_id": 3,
+    "name": "스마트 영수증",
+    "pathname": "/myLounge/receipt",
+    "simple_icon": "/images/pagecon/pagecon_receipt.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 25,
+    "parent_id": 3,
+    "name": "매장 찾기",
+    "pathname": "/myLounge/findstore",
+    "simple_icon": "/images/pagecon/pagecon_findstore.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 26,
+    "parent_id": 3,
+    "name": "자주 찾는 매장",
+    "pathname": "/myLounge/regularstore",
+    "simple_icon": "/images/pagecon/pagecon_regularstore.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+
+  {
+    "id": 27,
+    "parent_id": 5,
+    "name": "광고정보 수신관리",
+    "pathname": "/myInfo/infoRcvAgree",
+    "simple_icon": "/images/pagecon/pagecon_infoRcvAgree.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 28,
+    "parent_id": 5,
+    "name": "서비스 동의관리",
+    "pathname": "/myInfo/serviceAgree",
+    "simple_icon": "/images/pagecon/pagecon_serviceAgree.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 29,
+    "parent_id": 5,
+    "name": "회원정보 수정",
+    "pathname": "/myInfo/cert",
+    "simple_icon": "/images/pagecon/pagecon_cert.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 30,
+    "parent_id": 5,
+    "name": "비밀번호 변경",
+    "pathname": "/myInfo/changePwd",
+    "simple_icon": "/images/pagecon/pagecon_changePwd.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 31,
+    "parent_id": 5,
+    "name": "회원 탈퇴",
+    "pathname": "/myInfo/leavePassword",
+    "simple_icon": "/images/pagecon/pagecon_leavePassword.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+
+  {
+    "id": 32,
+    "parent_id": 6,
+    "name": "가맹점 소개",
+    "pathname": "/sPoint/memberstore",
+    "simple_icon": "/images/pagecon/pagecon_memberstore.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 33,
+    "parent_id": 6,
+    "name": "포인트 카드",
+    "pathname": "/sPoint/pointcard",
+    "simple_icon": "/images/pagecon/pagecon_pointcard.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 34,
+    "parent_id": 6,
+    "name": "포인트 서비스",
+    "pathname": "/sPoint/pointservice",
+    "simple_icon": "/images/pagecon/pagecon_pointservice.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 35,
+    "parent_id": 6,
+    "name": "임시 발급 카드 인증",
+    "pathname": "/sPoint/tempCardCert",
+    "simple_icon": "/images/pagecon/pagecon_tempCardCert.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 36,
+    "parent_id": 6,
+    "name": "신세계그룹 뉴스레터",
+    "pathname": "/sPoint/newsLetter",
+    "simple_icon": "/images/pagecon/pagecon_newsLetter.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+
+  {
+    "id": 37,
+    "parent_id": 7,
+    "name": "신세계포인트 통합 ID 관리",
+    "pathname": "/membership/pointId",
+    "simple_icon": "/images/pagecon/pagecon_pointId.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 38,
+    "parent_id": 7,
+    "name": "클럽",
+    "pathname": "/membership/club",
+    "simple_icon": "/images/pagecon/pagecon_club.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 39,
+    "parent_id": 7,
+    "name": "신세계유니버스 클럽",
+    "pathname": "/membership/combine",
+    "simple_icon": "/images/pagecon/pagecon_combine.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+
+  {
+    "id": 40,
+    "parent_id": 8,
+    "name": "공지사항",
+    "pathname": "/cscenter/notice",
+    "simple_icon": "/images/pagecon/pagecon_notice.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 41,
+    "parent_id": 8,
+    "name": "FAQ",
+    "pathname": "/cscenter/faq",
+    "simple_icon": "/images/pagecon/pagecon_faq.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 42,
+    "parent_id": 8,
+    "name": "1:1상담",
+    "pathname": "/cscenter/consult/write",
+    "simple_icon": "/images/pagecon/pagecon_consult.png",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+
+  {
+    "id": 43,
+    "parent_id": 9,
+    "name": "서비스 이용약관",
+    "pathname": "/stplat/terms",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 44,
+    "parent_id": 9,
+    "name": "개인정보 처리방침",
+    "pathname": "/stplat/policy",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+
+  {
+    "id": 45,
+    "parent_id": 0,
+    "name": "유니버스",
+    "pathname": "/membership/combine",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": "/images/tabIcon/tab_universe.png"
+  },
+
+  {
+    "id": 46,
+    "parent_id": 0,
+    "name": "로그인",
+    "pathname": "/login",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 47,
+    "parent_id": 0,
+    "name": "쿠폰",
+    "pathname": "/couponPage",
+    "simple_icon": "",
+    "primary_icon": "/images/primary/registerCoupon.png",
+    "tab_icon": ""
+  },
+
+  {
+    "id": 48,
+    "parent_id": 0,
+    "name": "이벤트",
+    "pathname": "/ingevents",
+    "simple_icon": "",
+    "primary_icon": "/images/primary/event.png",
+    "tab_icon": ""
+  },
+  {
+    "id": 49,
+    "parent_id": 0,
+    "name": "출석체크",
+    "pathname": "/benefits/pntPlus/attend",
+    "simple_icon": "",
+    "primary_icon": "/images/primary/attend-check.png",
+    "tab_icon": ""
+  },
+  {
+    "id": 50,
+    "parent_id": 0,
+    "name": "럭키룰렛",
+    "pathname": "/benefits/pntPlus/roulette",
+    "simple_icon": "",
+    "primary_icon": "/images/primary/lucky-roulette.png",
+    "tab_icon": ""
+  },
+  {
+    "id": 51,
+    "parent_id": 0,
+    "name": "운세서비스",
+    "pathname": "/benefits/benefitMyLuck",
+    "simple_icon": "",
+    "primary_icon": "/images/primary/myLuck.png",
+    "tab_icon": ""
+  },
+  {
+    "id": 52,
+    "parent_id": 0,
+    "name": "영수증",
+    "pathname": "/mylounge/receipt",
+    "simple_icon": "",
+    "primary_icon": "/images/primary/receipt.png",
+    "tab_icon": ""
+  },
+  {
+    "id": 53,
+    "parent_id": 0,
+    "name": "회원가입",
+    "pathname": "/member/join",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 54,
+    "parent_id": 0,
+    "name": "마이 페이지",
+    "pathname": "/myPage",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+
+  {
+    "id": 55,
+    "parent_id": 0,
+    "name": "진행 이벤트",
+    "pathname": "/ingevents",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 56,
+    "parent_id": 0,
+    "name": "종료 이벤트",
+    "pathname": "/endevents",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 57,
+    "parent_id": 0,
+    "name": "당첨 확인",
+    "pathname": "/winevents",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 58,
+    "parent_id": 0,
+    "name": "사용가능 쿠폰",
+    "pathname": "/benefits/myCoupon",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  },
+  {
+    "id": 59,
+    "parent_id": 0,
+    "name": "사용완료/기간만료 쿠폰",
+    "pathname": "/benefits/endCoupon",
+    "simple_icon": "",
+    "primary_icon": "",
+    "tab_icon": ""
+  }
+]

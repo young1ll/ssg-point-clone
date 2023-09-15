@@ -1,0 +1,77 @@
+{
+  "content": [
+    {
+      "pointId": 136,
+      "point": 100,
+      "title": "이마트 사상점",
+      "content": "이마트 내용",
+      "type": "결제",
+      "statusType": "적립",
+      "createdDate": "2023-09-07T16:50:18.731849",
+      "receiptId": 62
+    },
+    {
+      "pointId": 135,
+      "point": 1,
+      "title": "신세계포인트닷컴",
+      "content": "[APP] 광고보고 적립 포인트 지급",
+      "type": "이벤트",
+      "statusType": "적립",
+      "createdDate": "2023-09-07T16:50:18.120971",
+      "receiptId": 61
+    },
+    {
+      "pointId": 134,
+      "point": 1,
+      "title": "신세계포인트닷컴",
+      "content": "[APP] 시크릿룰렛 포인트 지급",
+      "type": "이벤트",
+      "statusType": "적립",
+      "createdDate": "2023-09-07T16:50:17.55648",
+      "receiptId": 60
+    },
+    {
+      "pointId": 133,
+      "point": 1,
+      "title": "신세계포인트닷컴",
+      "content": "[APP] 럭키룰렛 포인트 지급",
+      "type": "이벤트",
+      "statusType": "적립",
+      "createdDate": "2023-09-07T16:50:16.904326",
+      "receiptId": 59
+    },
+    {
+      "pointId": 132,
+      "point": 1,
+      "title": "신세계포인트닷컴",
+      "content": "[APP] 출석체크 포인트 지급",
+      "type": "이벤트",
+      "statusType": "적립",
+      "createdDate": "2023-09-07T16:50:16.337875",
+      "receiptId": 58
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "empty": false,
+      "sorted": true,
+      "unsorted": false
+    },
+    "offset": 10,
+    "pageNumber": 1,
+    "pageSize": 10,
+    "unpaged": false,
+    "paged": true
+  },
+  "size": 10,
+  "number": 1,
+  "sort": {
+    "empty": false,
+    "sorted": true,
+    "unsorted": false
+  },
+  "first": false,
+  "last": true,
+  "numberOfElements": 5,
+  "empty": false
+}

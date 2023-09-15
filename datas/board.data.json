@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "category_id": 8,
+    "type": "notice",
+    "title": "[이마트24] 8월 쿠폰 미적용점",
+    "content": {},
+    "reg_date": "23/07/31"
+  },
+  {
+    "id": 2,
+    "type": "notice",
+    "category_id": 8,
+    "title": "[공지] 시스템 업그레이드 작업 공지(08/03)",
+    "content": {},
+    "reg_date": "23/07/31"
+  }
+]

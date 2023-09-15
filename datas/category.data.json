@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "회원",
+    "parent_id": 0,
+    "order": 1
+  },
+  {
+    "id": 2,
+    "name": "신세계포인트",
+    "parent_id": 0,
+    "order": 2
+  },
+  {
+    "id": 3,
+    "name": "회원가입/탈퇴",
+    "parent_id": 1,
+    "order": 1
+  },
+  {
+    "id": 4,
+    "name": "정보수정",
+    "parent_id": 1,
+    "order": 2
+  },
+  {
+    "id": 5,
+    "name": "적립/사용",
+    "parent_id": 2,
+    "order": 2
+  },
+  {
+    "id": 6,
+    "name": "신세계포인트카드",
+    "parent_id": 2,
+    "order": 3
+  },
+  {
+    "id": 7,
+    "name": "신세계포인트카드",
+    "parent_id": 6,
+    "order": 1
+  },
+  {
+    "id": 8,
+    "name": "공지",
+    "parent_id": 0,
+    "order": 1
+  }
+]
