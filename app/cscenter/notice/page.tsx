@@ -6,19 +6,7 @@ import { use } from "react";
 
 import thisNotice from "@/data/notice.json";
 
-export async function fetchNotice(boardId?: string) {
-  const queryPath = "/detail?boardId";
-  const res = await fetch(
-    `http://localhost:3030/notice${boardId ? "?id=" + boardId : ""}`,
-    { next: { revalidate: 10 } }
-  );
-  const data = await res.json();
-  console.log(data);
-  return { data };
-}
-
 export default function NoticePage() {
-  const a = use(fetchNotice());
 
   return (
     <>

@@ -8,7 +8,6 @@ import { useAppContext } from "@/provider/AppContextProvider";
 import { dateFormatter, getDDay } from "@/utils/FormatHelpers";
 import ListBody from "../atom/ListBody";
 import Subtitle from "../atom/Subtitle";
-import { FetchListByFetchItem } from "@/utils/Fetch";
 
 import thisCouponList from "@/data/coupon.json";
 
@@ -38,23 +37,16 @@ export default function CouponList() {
     {
       name: "마감임박",
       pathname: "/couponPage",
-      url: `http://localhost:3030/coupon?_sort=end_date&_order=asc`,
+      // url: `http://localhost:3030/coupon?_sort=end_date&_order=asc`,
     },
     {
       name: "최신순",
       pathname: "/couponPage",
-      url: `http://localhost:3030/coupon?_sort=start_date&_order=desc`,
+      // url: `http://localhost:3030/coupon?_sort=start_date&_order=desc`,
     },
   ];
 
-  const thisFetchValue = FetchListByFetchItem(fetchValue as string, fetchList);
   useEffect(() => {
-    thisFetchValue
-      .then((v) => {
-        setCouponList(v);
-      })
-      .catch((e) => console.log(e));
-
     if (fetchValue == "최신순") {
       const sortThiCouponList = thisCouponList.sort(function (a, b) {
         return (

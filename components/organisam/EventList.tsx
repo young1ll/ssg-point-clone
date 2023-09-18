@@ -8,7 +8,7 @@ import Image from "next/image";
 import Subtitle from "../atom/Subtitle";
 import { dateHyphenSlashConverter, getDDay } from "@/utils/FormatHelpers";
 import Link from "next/link";
-import { FetchListByFetchItem, fetchThisItem } from "@/utils/Fetch";
+import { FetchListByFetchItem } from "@/utils/Fetch";
 import { useAppContext } from "@/provider/AppContextProvider";
 
 import thisEventList from "@/data/event.json";

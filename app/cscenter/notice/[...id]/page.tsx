@@ -1,5 +1,3 @@
-import { use } from "react";
-import { fetchNotice } from "../page";
 
 export default function NoticeDetailPage({
   params,
@@ -8,8 +6,6 @@ export default function NoticeDetailPage({
   params: { slug: string };
   searchParams?: { [key: string]: string | string[] | undefined };
 }) {
-  const thisBoard = use(fetchNotice(searchParams?.boardNo as string));
-
   return (
     <>
       <div className="mt-9 px-5">
